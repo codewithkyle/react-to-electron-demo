@@ -1,0 +1,11 @@
+.shop
+{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+
+    @media (min-width: 768px){
+        display: block;
+    }
+}
